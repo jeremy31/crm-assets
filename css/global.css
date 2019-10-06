@@ -66,3 +66,90 @@ table.liste-ingredients tr th{
     display:none;
   }
 }
+
+.alert {
+	display: block;
+	width: 100%;
+	padding: 1px;
+}
+.info {
+	background: #a1e0c6;
+}
+.warning {
+	background: #ecebc6;
+}
+.error {
+	background: #e4aeae;
+}
+
+
+
+
+
+
+body.stocks {
+	margin: 0;
+}
+.table-stocks {
+	width: 100%;
+	margin-top: 61px;
+}
+
+.table-stocks-thead {
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+    height: 52px;
+    top: 0px;
+    left: 0;
+}
+.table-stocks-thead tr th
+{
+	padding: 10px 1%;
+	height: 37px;
+}
+.table-stocks-name {
+	width : 30%;
+	padding: 0;
+}
+.table-stocks-data {
+	width : 15%;
+}
+.table-stocks tr td {
+	padding: 1%;
+}
+.table-stocks tr td span {
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+}
+
+.table-stocks tr td .bt-stock
+{
+	cursor: pointer;
+	background: #CCC;
+	
+}
+
+form > div {
+	margin-bottom: 40px;
+}
+
+form > div > div{
+	clear: both;
+}
+
+form label, form input, form textarea {
+    width: 160px;
+    display: block;
+    float: left;
+	line-height: 20px;
+    margin: 3px;
+}
+
+@media screen and (max-width: 767px){
+}
